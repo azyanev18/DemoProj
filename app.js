@@ -1,6 +1,11 @@
-const accorian=document.querySelectorAll('.content-container');
-for(i=0;i<accorian.length; i++) {
-    accorian[i].addEventListener('click', function() {
+const accordion = document.querySelectorAll('.content-container');
+
+console.log(accordion)
+
+for(i=0;i<accordion.length;i++)
+{
+    accordion[i].addEventListener('click', function()
+    {
         this.classList.toggle('active');
     });
 }
